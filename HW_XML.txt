@@ -25,8 +25,7 @@ XML
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
    vim sklls.xml -> нажать i, написать текст, ESC, :wq
  32. Сделать коммит в одну строку.
- git add .
- git commit -m "preferences.xml"
+ git add . && git commit -m "preferences.xml"
  33. Отправить сразу 2 файла на внешний репозиторий.
  git push
  34. На веб интерфейсе создать файл bug_report.xml.
@@ -38,5 +37,4 @@ XML
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
   commit changes 
  38. Синхронизировать внешний и локальный репозиторий XML
- git fetch
  git pull
