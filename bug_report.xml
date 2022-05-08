@@ -1,18 +1,16 @@
 <xml>	
-<progect> Progect: Progect X </progect>
-<assigned> Assigned To: Oleg Butsia </assigned>
-<priority> Priority: Medium </priority>
-<found> Found in: Chrome </found>
-<version> Version: 2.0 </version>
-<tittle>	
-Tittle: PM Helper - Incorrect project state in Project viewing mode
-</tittle>
-<discription>	
-Discription: 1. Choose a project and click Edit button
-             2. Change the status of the project 
-             3. Click Save changes
-             4. Click Project Viewing page
-</discription>             
-<result> Result: the status is not renewed </result>
-<Experted_result> Expected result: the status is renewed </experted_result> 
+<nikname>@cutopp</nikname>
+<bug_id>1</bug_id>
+<tittle>Не происходит вход в кабинет пользователя в приложении интернет-магазина</tittle>
+<severity>Critical</severity>
+<priority>Major</priority>
+<environment>POCO M4 Pro, Android 11</environment>
+<precondition>Открыть приложение</precondition>
+<str>
+  <step>Веести логин</step>
+  <step>Ввести пароль</step>
+  <step>Нажать кнопку Авторизироваться</step>
+</str>
+<ar>Поля ввода логина и пароля очищаются. Вход в кабинет не произошел</ar>
+<er>Происходит вход в кабинет пользователя</er>
 </xml>	
